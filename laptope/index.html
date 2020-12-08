@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="js/bootstrap.min.js">
+
+
+
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    * {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 8px;
+
+  font-size: 17px;
+  border: 1px solid grey;
+  float: center;
+  width: 60%;
+  border-radius: 5px;
+
+  background: #f1f1f1;
+}
+
+ button {
+   border-radius: 15px;
+
+  margin:0px;
+  float: center;
+  width: 10%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  column-span:initial;
+}
+
+ button:hover {
+  background: #0b7dda;
+
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display:table;
+}
+.jumbotron h1{
+  color: #ffffff;
+}
+.jumbotron p{
+  color: #ffffff;
+}
+.jumbotron .navbar{
+  margin-bottom: 0px;
+  background-color: black;
+}
+
+/* footer start */
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: black !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a  {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a  {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a {
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:2155px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+/* footer */
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="background-color:black; ">
+
+
+  <form class="example" action="/action_page.php">
+    <input type="text" placeholder="Search.." name="search">
+
+  </form>
+  <button type="submit"><i class="fa fa-search"></i>search</button>
+<!--
+    <div class="col-xs-12">
+        <input class="col-xs-8"  id="focusedInput" type="text" value="Click to focus...">
+      </div>  -->
+
+  <h1 >LATEST LAPTOP AVAILABLE</h1>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe commodi dolores cum suscipit autem sed!</p>
+
+  <nav class="navbar navbar-inverse" >
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">laptop.pk</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">PRODUCT<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">HP</a></li>
+              <li><a href="#">DELL</a></li>
+              <li><a href="#">LENOVO</a></li>
+            </ul>
+          </li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#contactus.html">CONTACT US</a></li>
+          <li><a href="#compare.html">COMPARE</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</div>
+
+
+
+<div class="container">
+  
+  <h1>LATEST LAPTOP AVAILABLE</h1>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>LENOVO</h3>
+      <img src="images/e.jpg" alt="">
+    </div>
+    <div class="col-sm-4">
+      <h3>HP</h3>
+<img src="images/h.jpg" alt="">
+    </div>
+    <div class="col-sm-4">
+      <h3>DELL</h3>
+      <img src="images/6367805cv13d-1540-9818-020720055939-1540-9893-160720093829.jpg" alt="">
+    </div>
+    
+    <div class="col-sm-4">
+      <h3>TOSHIBA</h3>
+      <img src="images/f.jpg" alt="">
+    </div>
+    <div class="col-sm-4">
+      <h3>PIONEER</h3>
+      <img src="images/d.jpg" alt="">
+    </div>
+    <div class="col-sm-4">
+      <h3>HAIR</h3>
+      <img src="images/download.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+
+<section id="footer">
+  <div class="container">
+    <!-- <div class="row text-center text-xs-center text-sm-left text-md-left"> -->
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h5>Quick links</h5>
+        <ul class="list-unstyled quick-links">
+          <li><a href="">Home</a></li>
+          <li><a href="">PRODUCT</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">CONTACTUS</a></li>
+          <li><a href="">COMPARE</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h5>Quick links</h5>
+        <ul class="list-unstyled quick-links">
+          <li><a href=""><i class="fa fa-angle-double-right"></i>Home</a></li>
+          <li><a href=""><i class="fa fa-angle-double-right"></i>Product</a></li>
+          <li><a href=""><i class="fa fa-angle-double-right"></i>About</a></li>
+          <li><a href=""><i class="fa fa-angle-double-right"></i>Contact us</a></li>
+          <li><a href=""><i class="fa fa-angle-double-right"></i>FAQs</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h5>Quick links</h5>
+        <ul class="list-unstyled quick-links">
+          <li><a href=""><i class="fa fa-angle-double-right"></i>Home</a></li>
+          <li><a href=""><i class="fa fa-angle-double-right"></i>Product</a></li>
+          <li><a href=""><i class="fa fa-angle-double-right"></i>About</a></li>
+          <li><a href=""><i class="fa fa-angle-double-right"></i>Contact us</a></li>
+          <li><a href="" title=""><i class="fa fa-angle-double-right"></i>FAQs</a></li>
+        </ul>
+      </div>
+<!-- </div> -->
+    <!-- <div class="row"> -->
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+        <ul class="list-unstyled list-inline social text-center">
+          <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-facebook"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-twitter"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-instagram"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-google-plus"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-envelope"></i></a></li>
+        </ul>
+      </div>
+      <hr>
+    <!-- </div>	 -->
+    <!-- <div class="row"> -->
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+        <p><u><a href="">LATEST LAPTOP AVAILABLE</a></u> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur illum debitis nihil voluptate pariatur, qui nesciunt eaque assumenda nulla possimus minima ullam? Assumenda, tempora, dignissimos hic atque incidunt vel sapiente quis excepturi, ab explicabo culpa quam! Vero asperiores quae explicabo eveniet tenetur a soluta, doloribus aspernatur, iure ipsa ad sed!</p>
+        <p class="h6">© All right Reversed.<a class="text-green ml-2" href="" target="_blank">laptop.pk</a></p>
+      </div>
+      <hr>
+    <!-- </div>	 -->
+  </div>
+</section>
+
+
+</body>
+</html>

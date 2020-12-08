@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#focusedInput{
+    padding: 10px;
+    position: absolute;
+    right:40vh
+
+}
+@media only screen and (max-width:666)
